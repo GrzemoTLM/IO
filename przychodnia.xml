@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicSystem>
+    <Doctor>
+        <Name>Jan Kowalski</Name>
+        <Schedule>
+            <Month name="June">
+                <Day date="2024-06-01">
+                    <WorkingHours>08:00-16:00</WorkingHours>
+                </Day>
+                <Day date="2024-06-02">
+                    <WorkingHours>08:00-12:00</WorkingHours>
+                </Day>
+            </Month>
+        </Schedule>
+        <Absence>
+            <StartDate>2024-07-15</StartDate>
+            <EndDate>2024-07-20</EndDate>
+        </Absence>
+    </Doctor>
+    <Patient>
+        <Name>Anna Nowak</Name>
+        <Visit>
+            <Date>2024-05-24</Date>
+            <Doctor>Jan Kowalski</Doctor>
+            <Diagnosis>Flu</Diagnosis>
+            <Treatment>Rest and hydration</Treatment>
+            <Price>200</Price>
+            <NextVisit>2024-06-24</NextVisit>
+        </Visit>
+    </Patient>
+</ClinicSystem>

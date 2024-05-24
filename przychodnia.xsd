@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ClinicSystem">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Doctor" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string"/>
+                            <xs:element name="Schedule">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Month" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Day" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="WorkingHours" type="xs:string"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="date" type="xs:date" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="name" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Absence">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="StartDate" type="xs:date"/>
+                                        <xs:element name="EndDate" type="xs:date"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Patient" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string"/>
+                            <xs:element name="Visit">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Date" type="xs:date"/>
+                                        <xs:element name="Doctor" type="xs:string"/>
+                                        <xs:element name="Diagnosis" type="xs:string"/>
+                                        <xs:element name="Treatment" type="xs:string"/>
+                                        <xs:element name="Price" type="xs:decimal"/>
+                                        <xs:element name="NextVisit" type="xs:date"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
