@@ -1,0 +1,23 @@
+
+### Wymagania funkcjonalne
+
+#### 1. Zarządzanie grafikiem pracy lekarza
+1.1. System pozwala lekarzowi na tworzenie harmonogramu pracy na okres dwóch miesięcy do przodu.
+1.2. Lekarz ma możliwość zgłaszania planowanych nieobecności z wyprzedzeniem, aby umożliwić powiadomienie pacjentów.
+1.3. Harmonogram pracy lekarza jest automatycznie przesyłany do recepcji za pomocą poczty elektronicznej.
+
+#### 2. Przegląd historii medycznej pacjenta
+2.1. System umożliwia lekarzowi dostęp do pełnej historii medycznej pacjenta.
+2.2. Szczegółowe informacje o wcześniejszych wizytach są wyświetlane lekarzowi w celu ich analizy.
+
+#### 3. Rejestrowanie danych z wizyt
+3.1. Lekarz może dyktować szczegóły wizyty asystentce, która zapisuje te informacje w systemie.
+3.2. Wszystkie dyktowane przez lekarza informacje są przechowywane w elektronicznej karcie pacjenta.
+3.3. System umożliwia lekarzowi przekazanie informacji o kosztach wizyty.
+3.4. Informacje o kosztach wizyty są zapisywane w systemie.
+
+#### 4. Planowanie kolejnych wizyt
+4.1. Lekarz może określić zalecany czas na kolejną wizytę pacjenta w systemie.
+4.2. Informacje o sugerowanym terminie kolejnej wizyty są przechowywane w elektronicznej karcie pacjenta.
+
+Czy chciałbyś, żebym teraz stworzył diagramy ilustrujące te wymagania? Jeśli tak, proszę, określ, jaki typ diagramu preferujesz (np. diagram przypadków użycia, diagram sekwencji, itp.).
