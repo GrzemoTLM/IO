@@ -1,0 +1,81 @@
+Przykład persony dla przyszłych użytkowników systemu informatycznego przychodni
+Persona 1: Lekarz
+
+Imię i nazwisko: Dr. Jan Kowalski
+Wiek: 45 lat
+Stanowisko: Lekarz internista
+Potrzeby:
+Efektywne zarządzanie harmonogramem pracy.
+Szybki dostęp do historii medycznej pacjentów.
+Łatwe rejestrowanie danych z wizyt.
+Proste planowanie kolejnych wizyt.
+Cele:
+Minimalizacja czasu poświęcanego na czynności administracyjne.
+Zwiększenie dokładności w rejestrowaniu danych pacjentów.
+Poprawa komunikacji z recepcją i pacjentami.
+Scenariusz użycia:
+Dr. Kowalski loguje się do systemu, aby zaktualizować swój harmonogram na następne dwa miesiące. Zgłasza również planowaną nieobecność. Przegląda historię medyczną nowego pacjenta przed wizytą i rejestruje dane z wizyty za pomocą systemu.
+Persona 2: Pacjent
+
+Imię i nazwisko: Anna Nowak
+Wiek: 30 lat
+Stanowisko: Nauczycielka
+Potrzeby:
+Łatwy dostęp do własnej historii medycznej.
+Możliwość planowania wizyt online.
+Informacje o nadchodzących wizytach.
+Cele:
+Szybki dostęp do wyników badań i historii medycznej.
+Efektywne zarządzanie terminami wizyt.
+Scenariusz użycia:
+Anna loguje się do systemu, aby przejrzeć historię swoich wizyt. Planuje kolejną wizytę u lekarza i sprawdza terminy wizyt.
+Persona 3: Recepcjonistka
+
+Imię i nazwisko: Maria Kowalczyk
+Wiek: 38 lat
+Stanowisko: Recepcjonistka
+Potrzeby:
+Otrzymywanie aktualnych harmonogramów lekarzy.
+Informowanie pacjentów o zmianach w harmonogramie.
+Pomoc w planowaniu wizyt.
+
+Cele:
+Zapewnienie płynności pracy przychodni.
+Zadowolenie pacjentów poprzez skuteczną komunikację.
+Scenariusz użycia:
+Maria loguje się do systemu, aby sprawdzić harmonogramy lekarzy. Informuje pacjentów o wszelkich zmianach w harmonogramie i pomaga w planowaniu wizyt.
+Zadanie 5.5: Utworzenie historyjek użytkowników
+Historyjki użytkowników to krótkie opisy funkcji systemu z perspektywy użytkowników. Każda historyjka powinna odpowiadać jednemu z wymagań funkcjonalnych i obejmować wszystkie rodzaje użytkowników.
+
+Przykłady historyjek użytkowników
+Historyjka 1: Zarządzanie grafikiem pracy lekarza
+
+Jako lekarz chcę móc tworzyć i aktualizować mój harmonogram pracy na dwa kolejne miesiące oraz zgłaszać planowane nieobecności, aby moje wizyty mogły być efektywnie zarządzane.
+
+Historyjka 2: Przegląd historii medycznej pacjenta
+
+Jako lekarz chcę mieć szybki dostęp do pełnej historii medycznej pacjenta, aby móc lepiej przygotować się do wizyty i podjąć właściwe decyzje medyczne.
+
+Historyjka 3: Rejestrowanie danych z wizyt
+
+Jako lekarz chcę móc dyktować szczegóły wizyty asystentce i mieć je zapisane w elektronicznej karcie pacjenta, aby zapewnić dokładne i kompletne dane medyczne.
+
+Historyjka 4: Planowanie kolejnych wizyt
+
+Jako lekarz chcę móc określić zalecany czas na kolejną wizytę i zapisać tę informację w systemie, aby pacjent wiedział, kiedy powinien przyjść na kontrolę.
+
+Historyjka 5: Dostęp do historii medycznej
+
+Jako pacjent chcę mieć dostęp do mojej historii medycznej, aby móc na bieżąco śledzić moje leczenie i wyniki badań.
+
+Historyjka 6: Planowanie wizyt
+
+Jako pacjent chcę móc zaplanować wizytę online, aby oszczędzić czas i uniknąć konieczności dzwonienia do przychodni.
+
+Historyjka 7: Obsługa harmonogramów
+
+Jako recepcjonistka chcę otrzymywać aktualne harmonogramy pracy lekarzy, aby móc skutecznie informować pacjentów o dostępnych terminach wizyt.
+
+Historyjka 8: Informowanie pacjentów
+
+Jako recepcjonistka chcę móc informować pacjentów o wszelkich zmianach w harmonogramie lekarzy, aby zapewnić płynność pracy przychodni i zadowolenie pacjentów.
