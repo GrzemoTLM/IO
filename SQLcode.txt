@@ -1,0 +1,57 @@
+CREATE TABLE Doctors (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(100) NOT NULL,
+    Specialization VARCHAR(100),
+    Email VARCHAR(100),
+    Phone VARCHAR(15)
+);
+
+CREATE TABLE Patients (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Name VARCHAR(100) NOT NULL,
+    DateOfBirth DATE,
+    Email VARCHAR(100),
+    Phone VARCHAR(15),
+    Address VARCHAR(255)
+);
+
+CREATE TABLE Schedules (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    DoctorID INT,
+    Date DATE,
+    StartTime TIME,
+    EndTime TIME,
+    Status VARCHAR(50),
+    FOREIGN KEY (DoctorID) REFERENCES Doctors(ID)
+);
+
+CREATE TABLE Visits (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    PatientID INT,
+    DoctorID INT,
+    Date DATE,
+    Time TIME,
+    Description TEXT,
+    Cost DECIMAL(10, 2),
+    FOREIGN KEY (PatientID) REFERENCES Patients(ID),
+    FOREIGN KEY (DoctorID) REFERENCES Doctors(ID)
+);
+
+CREATE TABLE MedicalHistory (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    PatientID INT,
+    VisitID INT,
+    Details TEXT,
+    FOREIGN KEY (PatientID) REFERENCES Patients(ID),
+    FOREIGN KEY (VisitID) REFERENCES Visits(ID)
+);
+
+CREATE TABLE Absences (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    DoctorID INT,
+    StartDate DATE,
+    EndDate DATE,
+    Reason TEXT,
+    FOREIGN KEY (DoctorID) REFERENCES Doctors(ID)
+);
+
